@@ -6,15 +6,15 @@ class testSummer(unittest.TestCase):
   def testSum01(self):
     num1 = 4
     num2 = 10
-    self.assertEqual(summer.sum(num1, num2), num1+num2)
+    self.assertEqual(summer.summer(num1, num2), num1+num2)
   # Test 02
   def testSum02(self):
     num = 4
-    self.assertEqual(summer.sum(num, num), num+num)
+    self.assertEqual(summer.summer(num, num), num+num)
   # Test 03
   def testSum03(self):
     num = 10
-    self.assertEqual(summer.sum(num, num), num+num)
+    self.assertEqual(summer.summer(num, num), num+num)
     
 if __name__ == '__main__':
     unittest.main()
